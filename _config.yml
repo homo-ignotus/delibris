@@ -1,0 +1,49 @@
+title: De Libris
+subtitle: thoughts on books and other matters.
+description: A small library of book reviews, poems, essays and travel writing.
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:name/
+  poems:
+    output: true
+    permalink: /poetry/:name/
+  travels:
+    output: true
+    permalink: /travel-writing/:name/
+  essays:
+    output: true
+    permalink: /essays/:name/
+defaults:
+  - scope:
+      path: ""
+      type: reviews
+    values:
+      layout: writing
+      kind: review
+  - scope:
+      path: ""
+      type: poems
+    values:
+      layout: writing
+      kind: poem
+  - scope:
+      path: ""
+      type: travels
+    values:
+      layout: writing
+      kind: travel
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: writing
+      kind: essay
+exclude:
+  - README.md
+  - CONTENT_GUIDE.md

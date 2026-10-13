@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="paper-shell">
+  <header class="interior-header">
+    <a class="small-wordmark" href="{{ '/' | relative_url }}">De Libris</a>
+    <nav aria-label="Sections">
+      <a href="{{ '/currently-reading/' | relative_url }}">Reading</a>
+      <a href="{{ '/reviews/' | relative_url }}">Reviews</a>
+      <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
+      <a href="{{ '/travel-writing/' | relative_url }}">Travel</a>
+      <a href="{{ '/essays/' | relative_url }}">Essays</a>
+    </nav>
+  </header>
+  <main id="main-content" class="paper-main">
+    {{ content }}
+  </main>
+  <footer class="paper-footer">
+    <a class="return-library" href="{{ '/' | relative_url }}">← Return to Library</a>
+    <img class="footer-dog" src="{{ '/assets/images/sleeping-dog.png' | relative_url }}" alt="A tan dog curled up asleep" loading="lazy">
+    <p class="paper-colophon">De Libris · A room for words</p>
+  </footer>
+</div>

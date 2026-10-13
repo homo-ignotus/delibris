@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#93aaba"/><stop offset="1" stop-color="#efd2a0"/></linearGradient></defs>
+<rect width="800" height="540" fill="url(#sky)"/>
+<circle cx="595" cy="139" r="53" fill="#f5dfa8"/>
+<path d="M0 370Q180 245 370 354T800 289V540H0Z" fill="#8c977d"/>
+<path d="M0 436Q150 346 390 414T800 360V540H0Z" fill="#627d6c"/>
+<path d="M0 501Q280 411 800 479V540H0Z" fill="#455b54"/>
+<text x="400" y="508" text-anchor="middle" fill="#f7eee0" font-family="Georgia,serif" font-size="23">PLACEHOLDER · ADD YOUR OWN PHOTO</text>
+</svg>

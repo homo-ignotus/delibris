@@ -1,0 +1,57 @@
+---
+layout: paper
+---
+<section class="collection-page">
+  <p class="overline">The collected writings</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="collection-intro">{{ page.intro | escape }}</p>
+  <div class="ornament" aria-hidden="true">❧</div>
+
+  {% case page.section %}
+  {% when 'reviews' %}
+    {% assign entries = site.reviews | sort: 'order' %}
+    <div class="review-table-wrap">
+      <table class="collection-table review-table">
+        <thead><tr><th scope="col">Title</th><th scope="col">Author</th><th scope="col">Rating</th></tr></thead>
+        <tbody>
+          {% for item in entries %}
+            <tr>
+              <td>
+                <div class="review-book">
+                  <a class="cover-link" href="{{ item.url | relative_url }}" aria-label="Read review: {{ item.title | escape }}">
+                    {% if item.cover %}<img class="cover-thumb" src="{{ item.cover | relative_url }}" alt="Cover illustration for {{ item.title | escape }}" loading="lazy">{% else %}<span class="cover-thumb cover-empty" aria-hidden="true">✦</span>{% endif %}
+                  </a>
+                  <a class="book-title-link" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+                </div>
+              </td>
+              <td class="author-cell">{{ item.author | escape }}</td>
+              <td>
+                <span class="stars" aria-label="{{ item.rating }} out of 5 stars">
+                {% assign score = item.rating | plus: 0 %}{% for n in (1..5) %}{% if n <= score %}<span aria-hidden="true">★</span>{% else %}<span class="unfilled-star" aria-hidden="true">☆</span>{% endif %}{% endfor %}
+                </span>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% when 'poems' %}
+    {% assign entries = site.poems | sort: 'order' %}
+    <div class="title-list">
+      {% for item in entries %}<a href="{{ item.url | relative_url }}">{{ item.title | escape }}<span aria-hidden="true">↗</span></a>{% endfor %}
+    </div>
+  {% when 'travels' %}
+    {% assign entries = site.travels | sort: 'order' %}
+    <table class="collection-table trip-table">
+      <thead><tr><th scope="col">Journey</th><th scope="col">Dates of travel</th></tr></thead>
+      <tbody>{% for item in entries %}
+        <tr><td><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></td><td class="dates-cell">{{ item.dates | escape }}</td></tr>
+      {% endfor %}</tbody>
+    </table>
+  {% when 'essays' %}
+    {% assign entries = site.essays | sort: 'order' %}
+    <div class="title-list">
+      {% for item in entries %}<a href="{{ item.url | relative_url }}">{{ item.title | escape }}<span aria-hidden="true">↗</span></a>{% endfor %}
+    </div>
+  {% endcase %}
+</section>

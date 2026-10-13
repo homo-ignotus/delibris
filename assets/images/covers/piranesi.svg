@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 510">
+    <rect width="360" height="510" fill="#243f5d"/>
+    <rect x="17" y="17" width="326" height="476" rx="2" fill="none" stroke="#dbcaa8" stroke-width="2" opacity=".65"/>
+    <path d="M33 38H327M33 470H327" stroke="#dbcaa8" stroke-width="2" opacity=".65"/>
+    <g opacity=".72"><path d="M85 215V94M142 215V94M202 215V94M259 215V94M66 92H278M73 216H270" stroke="#dbcaa8" stroke-width="12"/><path d="M66 90Q172 -10 278 90" fill="none" stroke="#dbcaa8" stroke-width="7"/></g>
+    <text x="180" y="300" text-anchor="middle" fill="#dbcaa8" font-family="Georgia,serif" font-size="32">Piranesi</text>
+    <text x="180" y="345" text-anchor="middle" fill="#dbcaa8" font-family="Georgia,serif" font-size="32"></text>
+    <text x="180" y="440" text-anchor="middle" fill="#dbcaa8" font-family="Georgia,serif" font-size="15" letter-spacing="2">SAMPLE COVER</text>
+    </svg>
