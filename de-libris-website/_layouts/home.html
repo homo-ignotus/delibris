@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<main id="main-content" class="home-main">
+  <div class="room-scroll" aria-label="Illustrated De Libris library. Scroll sideways on a small screen.">
+    <div class="room" data-window-prefix="{{ '/assets/images/window-view' | relative_url }}">
+      <div class="window-photo" aria-hidden="true"></div>
+      <img class="room-art" src="{{ '/assets/images/study-room.png' | relative_url }}" alt="A warmly lit English professor's study: a writing desk, a sleeping dog, an ivy-framed window, bookshelves and a fireplace." fetchpriority="high">
+      <div class="fire-glow" aria-hidden="true"></div>
+      <div class="tea-steam" aria-hidden="true"><i></i><i></i><i></i></div>
+      <header class="home-heading">
+        <p class="home-eyebrow">A little literary room</p>
+        <h1>De Libris</h1>
+        <p>thoughts on books and other matters.</p>
+      </header>
+
+      <!-- The positions line up precisely with the illustrated books. -->
+      <a class="book-hit spine reviews-spine" href="{{ '/reviews/' | relative_url }}" aria-label="Browse Book Reviews" data-label="Book Reviews"><span class="sr-only">Book Reviews</span></a>
+      <a class="book-hit spine poetry-spine" href="{{ '/poetry/' | relative_url }}" aria-label="Browse Poetry" data-label="Poetry"><span class="sr-only">Poetry</span></a>
+      <a class="book-hit spine travel-spine" href="{{ '/travel-writing/' | relative_url }}" aria-label="Browse Travel Writing" data-label="Travel Writing"><span class="sr-only">Travel Writing</span></a>
+      <a class="book-hit spine essays-spine" href="{{ '/essays/' | relative_url }}" aria-label="Browse Essays" data-label="Essays"><span class="sr-only">Essays</span></a>
+      <a class="book-hit horizontal desk-book" href="{{ '/currently-reading/' | relative_url }}" aria-label="See Currently Reading" data-label="Currently Reading"><span class="sr-only">Currently Reading</span></a>
+      <a class="book-hit horizontal stack-one" href="{{ '/reviews/the-midnight-library/' | relative_url }}" aria-label="Read the review of The Midnight Library" data-label="The Midnight Library"><span class="sr-only">The Midnight Library review</span></a>
+      <a class="book-hit horizontal stack-two" href="{{ '/reviews/normal-people/' | relative_url }}" aria-label="Read the review of Normal People" data-label="Normal People"><span class="sr-only">Normal People review</span></a>
+      <a class="book-hit horizontal stack-three" href="{{ '/reviews/piranesi/' | relative_url }}" aria-label="Read the review of Piranesi" data-label="Piranesi"><span class="sr-only">Piranesi review</span></a>
+    </div>
+  </div>
+  <nav class="room-index" aria-label="Explore De Libris">
+    <span class="room-index-title">Explore the shelves</span>
+    <a href="{{ '/currently-reading/' | relative_url }}">Currently Reading</a>
+    <a href="{{ '/reviews/' | relative_url }}">Book Reviews</a>
+    <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
+    <a href="{{ '/travel-writing/' | relative_url }}">Travel Writing</a>
+    <a href="{{ '/essays/' | relative_url }}">Essays</a>
+  </nav>
+  <p class="room-hint">Select a book to enter. The upright volumes open collections; the stacks open individual reviews.</p>
+</main>

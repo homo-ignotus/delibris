@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 510">
+    <rect width="360" height="510" fill="#263f44"/>
+    <rect x="17" y="17" width="326" height="476" rx="2" fill="none" stroke="#d1b477" stroke-width="2" opacity=".65"/>
+    <path d="M33 38H327M33 470H327" stroke="#d1b477" stroke-width="2" opacity=".65"/>
+    <g opacity=".72"><circle cx="180" cy="125" r="54" fill="none" stroke="#d1b477" stroke-width="1.5"/><path d="M180 70V180M125 125H235" stroke="#d1b477" stroke-width="2" opacity=".8"/></g>
+    <text x="180" y="300" text-anchor="middle" fill="#d1b477" font-family="Georgia,serif" font-size="32">The Midnight</text>
+    <text x="180" y="345" text-anchor="middle" fill="#d1b477" font-family="Georgia,serif" font-size="32">Library</text>
+    <text x="180" y="440" text-anchor="middle" fill="#d1b477" font-family="Georgia,serif" font-size="15" letter-spacing="2">SAMPLE COVER</text>
+    </svg>
