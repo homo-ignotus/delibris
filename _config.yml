@@ -1,7 +1,7 @@
 title: De Libris
 subtitle: thoughts on books and other matters.
 description: A small library of book reviews, poems, essays and travel writing.
-url: ""
+url: "https://delibris.co.uk"
 baseurl: ""
 markdown: kramdown
 kramdown:
