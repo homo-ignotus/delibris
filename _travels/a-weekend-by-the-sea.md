@@ -1,17 +1,17 @@
 ---
-title: A Weekend by the Sea
-dates: 7–9 March 2026
+title: A Week in the Cotswolds
+dates: September 2026
 order: 2
 gallery: []
 ---
-An empty beach in the off-season has its own charm. The wind was bracing, the cafés quiet and the horizon difficult to stop looking at.
+One week, 82 miles, great food, and lots of conversation
 
-## Along the shore
+## Day #1:
+6 mi
 
-We followed the promenade beyond the last houses, watching the clouds race their own reflections across the water.
+Shorter hike from Chipping Camden to Broadway. Pleasant weather and beautiful views near Broadway tower (see image below). 
 
-## Returning
+## Day #2:
+12.8 mi
 
-By Sunday afternoon, the small journey already had the peculiar texture of a memory.
-
-*Example entry. Add your own headings and photographs.*
+Decent hike from Broadway to Winchcombe. Pleasant weather again. We saw the Stanway House & Gardens, a beautiful Jacobean manor, though were only able to see the frontside.
