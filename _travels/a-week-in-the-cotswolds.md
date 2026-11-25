@@ -3,7 +3,7 @@ title: A Week in the Cotswolds
 dates: September 2026
 order: 2
 ---
-One week, 82 miles, great food, and lots of conversation
+One week, 83 miles, great food, and lots of conversation
 
 ## Day #1:
 6.0 mi
