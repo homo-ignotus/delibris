@@ -2,25 +2,41 @@
 title: A Week in the Cotswolds
 dates: September 2026
 order: 2
-gallery:
-  - image: /assets/images/travel/Stanway_house.png
-    caption: Stanway House and Gardens
-  - image: assets/images/travel/cotswolds_view_1.png
-  - image: assets/images/travel/broadway_tower.png
-    caption: Broadway Tower
 ---
 One week, 82 miles, great food, and lots of conversation
 
 ## Day #1:
 6.0 mi
 
-Shorter hike from Chipping Camden to Broadway. Pleasant weather and beautiful views near Broadway tower (see image below). 
-
+Shorter hike from Chipping Camden to Broadway. Pleasant weather and beautiful views near Broadway tower. 
+<figure>
+  <img
+    src="/assets/images/travel/broadway_tower.png"
+    alt="Broadway Tower"
+    style="width:100%;height:auto;"
+  >
+  <figcaption>Broadway Tower</figcaption>
+</figure>
+<figure>
+  <img
+    src="/assets/images/travel/cotswolds_view_1.png"
+    alt="View from Day 1"
+    style="width:100%;height:auto;"
+  >
+  <figcaption>View from Day 1</figcaption>
+</figure>
 ## Day #2:
 12.8 mi
 
 Decent hike from Broadway to Winchcombe. Pleasant weather again. We saw the Stanway House & Gardens, a beautiful Jacobean manor, though were only able to see the frontside.
-
+<figure>
+  <img
+    src="/assets/images/travel/Stanway_house.png"
+    alt="Stanway House and Gardens"
+    style="width:100%;height:auto;"
+  >
+  <figcaption>Stanway House and Gardens</figcaption>
+</figure>
 ## Day #3:
 12.7 mi
 
