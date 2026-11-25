@@ -1,14 +1,8 @@
 ---
-title: France
-dates: October 2025
+title: A Weekend in Paris
+dates: December 2026
 order: 1
 gallery:
-  - image: /assets/images/travel/sample-france.svg
-    caption: An illustrated placeholder for a favourite view.
-    alt: A stylised French street with buildings and trees
-  - image: /assets/images/travel/sample-hills.svg
-    caption: Another placeholder—replace these with your photographs.
-    alt: A stylised sunlit landscape with hills
 ---
 I arrived with a notebook, a few plans and the vague ambition to spend more time looking around than looking at a screen.
 
