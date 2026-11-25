@@ -2,7 +2,9 @@
 title: A Week in the Cotswolds
 dates: September 2026
 order: 2
-gallery: [Stanway_house.png]
+gallery:
+  - image: /assets/images/travel/Stanway_house.png
+    caption: Stanway House and Gardens
 ---
 One week, 82 miles, great food, and lots of conversation
 
