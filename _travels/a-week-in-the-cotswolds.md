@@ -2,7 +2,7 @@
 title: A Week in the Cotswolds
 dates: September 2026
 order: 2
-gallery: []
+gallery: [Stanway_house.png]
 ---
 One week, 82 miles, great food, and lots of conversation
 
