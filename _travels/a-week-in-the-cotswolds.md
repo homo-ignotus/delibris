@@ -5,6 +5,9 @@ order: 2
 gallery:
   - image: /assets/images/travel/Stanway_house.png
     caption: Stanway House and Gardens
+  - image: assets/images/travel/cotswolds_view_1.png
+  - image: assets/images/travel/broadway_tower.png
+    caption: Broadway Tower
 ---
 One week, 82 miles, great food, and lots of conversation
 
