@@ -9,11 +9,12 @@ One week, 82 miles, great food, and lots of conversation
 6.0 mi
 
 Shorter hike from Chipping Camden to Broadway. Pleasant weather and beautiful views near Broadway tower. 
+
 <figure>
   <img
     src="/assets/images/travel/broadway_tower.png"
     alt="Broadway Tower"
-    style="width:100%;height:auto;"
+    style="width:70%;height:auto;"
   >
   <figcaption>Broadway Tower</figcaption>
 </figure>
@@ -21,22 +22,25 @@ Shorter hike from Chipping Camden to Broadway. Pleasant weather and beautiful vi
   <img
     src="/assets/images/travel/cotswolds_view_1.png"
     alt="View from Day 1"
-    style="width:100%;height:auto;"
+    style="width:70%;height:auto;"
   >
   <figcaption>View from Day 1</figcaption>
 </figure>
+
 ## Day #2:
 12.8 mi
 
 Decent hike from Broadway to Winchcombe. Pleasant weather again. We saw the Stanway House & Gardens, a beautiful Jacobean manor, though were only able to see the frontside.
+
 <figure>
   <img
     src="/assets/images/travel/Stanway_house.png"
     alt="Stanway House and Gardens"
-    style="width:100%;height:auto;"
+    style="width:70%;height:auto;"
   >
   <figcaption>Stanway House and Gardens</figcaption>
 </figure>
+
 ## Day #3:
 12.7 mi
 
@@ -52,6 +56,15 @@ We had to skip a section in the middle if we were to make it all the way to Bath
 
 Stroud to Wotton-under-Edge. Back to the normal(ish) length, though we were certainly exhausted by the end of the day as there was a very steep hill we had to trudge up before hiking into Dursley. 
 
+<figure>
+  <img
+    src="/assets/images/travel/cotswolds_view_2.png"
+    alt="view from the day"
+    style="width:70%;height:auto;"
+  >
+  <figcaption>View of the day</figcaption>
+</figure>
+
 ## Day #6:
 17.6 mi
 
@@ -61,3 +74,21 @@ Wotton-under-Edge to Tolldown. This was by far the longest day of the trip, and 
 12.2 mi
 
 Tolldown to Bath. The end of the trip! This was quite a fun day, because it was medium length, though the last 5 miles or so were only downhill, making it quite easy. Bath was nice, though we weren't able to stay there for long. 
+
+<figure>
+  <img
+    src="/assets/images/travel/trail_marker.png"
+    alt="Trail Marker"
+    style="width:70%;height:auto;"
+  >
+  <figcaption>Trail marker 3 miles away from Bath</figcaption>
+</figure>
+
+<figure>
+  <img
+    src="/assets/images/travel/bath_end_marker.png"
+    alt="Bath end marker"
+    style="width:70%;height:auto;"
+  >
+  <figcaption>Trail end marker in Bath</figcaption>
+</figure>
